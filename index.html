@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+    <script src="exercice1.js"></script>
+</body>
+</html>
+
+
+
+let contacts = [];
+
+function ajouterContact(contact) {
+  const prenom = contact.prenom;
+  const nom = contact.nom;
+  const telephone = contact.telephone;
+  const email = contact.email;
+  const ville = contact.ville;
+  contacts.push(contact);
+}
+
+function trouverParville(ville) {}
+
+ajouterContact(
+  "Juluhus",
+  "BANKOLE",
+  "0158269126",
+  "frisdel60@gmail.com",
+  "Calavi",
+);
+console.log(contacts);
